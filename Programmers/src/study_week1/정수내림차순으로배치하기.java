@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class 정수내림차순으로배치하기 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        long a = scanner.nextInt();
+        long a = scanner.nextLong();
         System.out.print(soultion(a));
     }
 
