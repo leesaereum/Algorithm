@@ -6,29 +6,27 @@ public class Q10814 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int N = s.nextInt();
-        int[] age = new int[N];
-        String[] name = new String[N];
+        ArrayList<String> name = new ArrayList<>();
+        StringBuffer sb = new StringBuffer();
         for (int i = 0; i < N; i++) {
-            age[i] = s.nextInt();
-            name[i] = s.next();
+            name.add(s.nextInt()+" " +s.next());
         }
-        int num = 0;
-        String str = "";
-        for (int i = 0; i<N-1 ; i++) {
-            for(int j=N-1;j>i;j--){
-                if(age[j-1]>age[j]){
-                    num = age[j];
-                    age[j] = age[j-1];
-                    age[j-1] = num;
-
-                    str = name[j-1];
-                    name[j-1] = name[j];
-                    name[j] = str;
-                }
+        Comparator<String> c = new Comparator<String>() {
+            @Override
+            public int compare(String a1, String a2) {
+                int n1 = Integer.parseInt(a1.split(" ")[0]);
+                int n2 = Integer.parseInt(a2.split(" ")[0]);
+                if (n1>n2) return 1;
+                else if(n1<n2) return -1;
+                else return 0;
             }
-        }
+        };
+
+        Collections.sort(name,c);
+
         for (int i = 0; i < N; i++) {
-            System.out.println(age[i]+" "+name[i]);
+            sb.append(name.get(i)+"\n");
         }
+        System.out.println(sb);
     }
 }

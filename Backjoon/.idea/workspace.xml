@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53ff30f3-2fa6-41f4-bb88-bc08b86c449e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/study_week4/Q10814.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study_week4/Q11650.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study_week4/Q11651.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study_week4/Q1181.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study_week4/Q1427.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study_week4/Q18870.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study_week4/Q2108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study_week4/Q25305.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study_week4/Q2750.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programmers/src/study_week4/H_Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programmers/src/study_week4/K번째수.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programmers/src/study_week4/가장큰수.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Programmers/src/study_week4/특이한정렬.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/study_week3/Q1157.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/study_week3/Q1157.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/study_week3/Q1316.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/study_week3/Q1316.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/study_week3/Q2941.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/study_week3/Q2941.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Backjoon/study_week3/Q5622.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Backjoon/study_week3/Q5622.class" afterDir="false" />
-    </list>
+    <list default="true" id="53ff30f3-2fa6-41f4-bb88-bc08b86c449e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,13 +36,18 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Q10814">
-    <configuration name="Q10814" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study_week4.Q10814" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="study_week2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Q10866">
+    <configuration name="Q10866" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study_week5.Q10866" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study_week4.*" />
+          <option name="PATTERN" value="study_week5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q11650" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study_week4.Q11650" />
+    <configuration name="Q11866" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study_week5.Q11866" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study_week4.*" />
+          <option name="PATTERN" value="study_week5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q11651" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study_week4.Q11651" />
+    <configuration name="Q15828" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study_week5.Q15828" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study_week4.*" />
+          <option name="PATTERN" value="study_week5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1181" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study_week4.Q1181" />
+    <configuration name="Q18258" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study_week5.Q18258" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study_week4.*" />
+          <option name="PATTERN" value="study_week5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2108" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study_week4.Q2108" />
+    <configuration name="Q2164" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study_week5.Q2164" />
       <module name="Backjoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study_week4.*" />
+          <option name="PATTERN" value="study_week5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q10814" />
-        <item itemvalue="Application.Q1181" />
-        <item itemvalue="Application.Q11651" />
-        <item itemvalue="Application.Q2108" />
-        <item itemvalue="Application.Q11650" />
+        <item itemvalue="Application.Q10866" />
+        <item itemvalue="Application.Q11866" />
+        <item itemvalue="Application.Q15828" />
+        <item itemvalue="Application.Q2164" />
+        <item itemvalue="Application.Q18258" />
       </list>
     </recent_temporary>
   </component>

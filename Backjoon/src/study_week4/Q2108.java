@@ -10,31 +10,37 @@ public class Q2108 {
         int N = s.nextInt();
         int[] arr = new int[N];
         int[] range = new int[8001];
-        int sum = 0;
+        StringBuffer sb = new StringBuffer();
+        double sum = 0;
         for (int i = 0; i < N; i++) {
             arr[i] = s.nextInt();
             sum += arr[i];
             range[arr[i]+4000] ++;
         }
         Arrays.sort(arr);
-        ArrayList<Integer> max = new ArrayList<Integer>();
+
+        ArrayList<Integer> al = new ArrayList<>();
         int count = 0;
-        boolean ok = true;
+        boolean ok = false;
         for (int i = 0; i < 8001; i++) {
             if(range[i]>count){
-                max.clear();
+                al.clear();
+                al.add(i-4000);
                 count = range[i];
-                max.add(i-4000);
                 ok = true;
-            }else if(range[i]==count){
-                max.add(i-4000);
+            }else if(range[i]==count&&ok){
+                al.add(i-4000);
                 ok = false;
             }
         }
 
-        System.out.println(Math.round(sum / N));
-        System.out.println(arr[N/2]);
-        System.out.println(ok?max.get(0):max.size()==2?max.get(0):max.get(1));
-        System.out.println(arr[N-1]-arr[0]);
+        int Num = 0;
+        if(ok) Num=al.get(0);
+        else Num = al.get(1);
+        sb.append(Math.round(sum / N)+"\n");
+        sb.append(arr[N/2]+"\n");
+        sb.append(Num+"\n");
+        sb.append(arr[N-1]-arr[0]);
+        System.out.println(sb);
     }
 }
